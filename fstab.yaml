@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://author-p133911-e1313554.adobeaemcloud.com/bin/franklin.delivery/wkndforms/eds-forms-sites/main
+    url: https://author-p133911-e1313554.adobeaemcloud.com/bin/franklin.delivery/wkndforms/edsforms/main
     type: "markup"
     suffix: ".html"
