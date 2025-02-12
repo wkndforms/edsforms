@@ -1,4 +1,4 @@
-/** Styling for range */
+/** styling for range */
 main .form .range-widget-wrapper.decorated input[type="range"] {
     margin: unset;
     padding: unset;
@@ -6,54 +6,46 @@ main .form .range-widget-wrapper.decorated input[type="range"] {
     height: 5px;
     border-radius: 5px;
     border: none;
-    background-image: linear-gradient(to right, #0A192F calc(100% * var(--current-steps)/var(--total-steps)), #C5C5C5 calc(100% * var(--current-steps)/var(--total-steps)));
+    background-image: linear-gradient(to right, var(--button-primary-color) calc(100% * var(--current-steps)/var(--total-steps)), #C5C5C5 calc(100% * var(--current-steps)/var(--total-steps)));
 }
-
-/* Remove focus outline */
+ 
 main .form .range-widget-wrapper.decorated input[type="range"]:focus {
     outline: none;
 }
-
-/* Dark blue slider thumb */
+ 
 .range-widget-wrapper.decorated input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #0A192F;
-    border: 3px solid #0A192F;
+    background: #fff;
+    border: 3px solid var(--button-primary-color);
     cursor: pointer;
     outline: 3px solid #fff;
 }
-
-/* Maintain border color on focus */
+ 
 .range-widget-wrapper.decorated input[type="range"]:focus::-webkit-slider-thumb {
-    border-color: #0A192F;
+    border-color: var(--button-primary-color);
 }
-
-/* Dark blue range bubble */
+ 
 .range-widget-wrapper.decorated .range-bubble {
-    color: #FFFFFF;
-    background-color: #0A192F;
+    color: #17252e;
     font-size: 20px;
     line-height: 28px;
     position: relative;
     display: inline-block;
-    padding: 6px 12px;
-    border-radius: 8px;
+    padding-bottom: 12px;
 }
-
-/* Min and max labels styling */
+ 
 .range-widget-wrapper.decorated .range-min,
 .range-widget-wrapper.decorated .range-max {
     font-size: 14px;
     line-height: 22px;
-    color: #0A192F;
+    color: #494f50;
     margin-top: 16px;
     display: inline-block;
 }
-
+ 
 .range-widget-wrapper.decorated .range-max {
     float: right;
 }
-
