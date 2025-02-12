@@ -4195,6 +4195,13 @@
             "valueType": "boolean"
           },
           {
+        "component": "number",
+          "name": "stepValue",
+        "label": "Step Value",
+          "valueType": "number",
+        "description": "Step value for the range"
+          },
+          {
             "component": "select",
             "name": "colspan",
             "label": "Columns",
