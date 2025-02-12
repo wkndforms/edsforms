@@ -34,7 +34,6 @@
            "name": "stepValue",
             "label": "Step Value",
              "valueType": "number",
-             "description": "Step value for the range"
 }
         },
         {
