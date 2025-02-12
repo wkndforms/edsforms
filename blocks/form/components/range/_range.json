@@ -29,6 +29,13 @@
           "label": "Basic",
           "collapsible": false,
           "...": "../../../../models/form-common/_basic-input-fields.json"
+         {
+           "component": "number",
+           "name": "stepValue",
+            "label": "Step Value",
+             "valueType": "number",
+             "description": "Step value for the range"
+}
         },
         {
           "...": "../../../../models/form-common/_help-container.json"
