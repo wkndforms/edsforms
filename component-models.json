@@ -2287,7 +2287,8 @@
         "component": "container",
         "name": "validation",
         "label": "Validation",
-        "collapsible": true
+        "collapsible": true,
+        "fields": []
       }
     ]
   },
